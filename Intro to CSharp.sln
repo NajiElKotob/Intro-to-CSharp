@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (Console)", "Hello World (Console)\Hello World (Console).csproj", "{154E8DA4-1246-4DF0-8479-3778EC21ACB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WinForms)", "Hello World (WinForms)\Hello World (WinForms).csproj", "{A722C13C-3686-462B-9173-1498ADF82E00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hello World", "Hello World", "{BF22DA3B-540B-4499-8DC1-1383A219F060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WPF)", "Hello World (WPF)\Hello World (WPF).csproj", "{2C94DFFE-C6FD-4951-A720-E171BAEA9289}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,22 @@ Global
 		{154E8DA4-1246-4DF0-8479-3778EC21ACB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154E8DA4-1246-4DF0-8479-3778EC21ACB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154E8DA4-1246-4DF0-8479-3778EC21ACB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A722C13C-3686-462B-9173-1498ADF82E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A722C13C-3686-462B-9173-1498ADF82E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A722C13C-3686-462B-9173-1498ADF82E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A722C13C-3686-462B-9173-1498ADF82E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C94DFFE-C6FD-4951-A720-E171BAEA9289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C94DFFE-C6FD-4951-A720-E171BAEA9289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C94DFFE-C6FD-4951-A720-E171BAEA9289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C94DFFE-C6FD-4951-A720-E171BAEA9289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{154E8DA4-1246-4DF0-8479-3778EC21ACB0} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
+		{A722C13C-3686-462B-9173-1498ADF82E00} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
+		{2C94DFFE-C6FD-4951-A720-E171BAEA9289} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
