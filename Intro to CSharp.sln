@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WPF)", "Hello 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (Web)", "Hello World (Web)\Hello World (Web).csproj", "{47733103-13F4-4171-AD09-D7CB7FE88F0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types and Variables (Console)", "Data Types and Variables (Console)\Data Types and Variables (Console).csproj", "{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{47733103-13F4-4171-AD09-D7CB7FE88F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47733103-13F4-4171-AD09-D7CB7FE88F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47733103-13F4-4171-AD09-D7CB7FE88F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{A722C13C-3686-462B-9173-1498ADF82E00} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{2C94DFFE-C6FD-4951-A720-E171BAEA9289} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{47733103-13F4-4171-AD09-D7CB7FE88F0B} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
