@@ -7,15 +7,31 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (Console)", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WinForms)", "Hello World (WinForms)\Hello World (WinForms).csproj", "{A722C13C-3686-462B-9173-1498ADF82E00}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hello World", "Hello World", "{BF22DA3B-540B-4499-8DC1-1383A219F060}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hello World", "1. Hello World", "{BF22DA3B-540B-4499-8DC1-1383A219F060}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WPF)", "Hello World (WPF)\Hello World (WPF).csproj", "{2C94DFFE-C6FD-4951-A720-E171BAEA9289}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (Web)", "Hello World (Web)\Hello World (Web).csproj", "{47733103-13F4-4171-AD09-D7CB7FE88F0B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variables", "Variables", "{4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Variables", "2. Variables", "{4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types and Variables (Console)", "Data Types and Variables (Console)\Data Types and Variables (Console).csproj", "{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Classes and Methods", "3. Classes and Methods", "{A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Handling Exceptions", "4. Handling Exceptions", "{48EB8337-BA81-44AE-9E92-56A67E6550AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Arrays and Collections", "5. Arrays and Collections", "{05596827-EC6D-4225-8EA7-A7FADDA0CCF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Encryption and Decryption", "10. Encryption and Decryption", "{C9A75C10-9C1E-4CFE-B9E5-5675DAB90944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Object Oriented", "7. Object Oriented", "{871724D7-AE35-4CA9-A8D1-52FE1E8E2B81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Entity Framework", "8. Entity Framework", "{FDAC9C07-9A4A-489E-9394-D91337FFF9D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Files and Directories", "6. Files and Directories", "{40942329-E60D-4424-B8B5-4C3512915AAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. LINQ", "9. LINQ", "{5EFB70B1-9D0B-44C4-9114-4B4257E74F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
