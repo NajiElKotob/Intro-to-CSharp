@@ -39,5 +39,12 @@ namespace Casting_and_Type_Conversions
                 MessageBox.Show($"Exception: {ex.Message}");
             }
         }
+
+        private void btnParse_Click(object sender, EventArgs e)
+        {
+            // If the string is not in a valid format, Parse throws an exception 
+            sbyte num = sbyte.Parse(txtInput.Text);
+            lblOutput.Text = num.ToString();
+        }
     }
 }

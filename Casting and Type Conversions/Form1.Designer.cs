@@ -103,6 +103,7 @@
             this.btnParse.TabIndex = 1;
             this.btnParse.Text = "Parse";
             this.btnParse.UseVisualStyleBackColor = true;
+            this.btnParse.Click += new System.EventHandler(this.btnParse_Click);
             // 
             // btnRemoveSpace
             // 
@@ -135,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(747, 433);
+            this.ClientSize = new System.Drawing.Size(384, 433);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmMain";
             this.Text = "Casting and Type Conversions";
