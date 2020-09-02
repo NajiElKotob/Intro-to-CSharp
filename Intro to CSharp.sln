@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hello World", "1. Hello 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WPF)", "Hello World (WPF)\Hello World (WPF).csproj", "{2C94DFFE-C6FD-4951-A720-E171BAEA9289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (Web)", "Hello World (Web)\Hello World (Web).csproj", "{47733103-13F4-4171-AD09-D7CB7FE88F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello World (Web)", "Hello World (Web)\Hello World (Web).csproj", "{47733103-13F4-4171-AD09-D7CB7FE88F0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Variables", "2. Variables", "{4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Files and Directories", "6. Files and Directories", "{40942329-E60D-4424-B8B5-4C3512915AAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. LINQ", "9. LINQ", "{5EFB70B1-9D0B-44C4-9114-4B4257E74F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting and Type Conversions", "Casting and Type Conversions\Casting and Type Conversions.csproj", "{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{2C94DFFE-C6FD-4951-A720-E171BAEA9289} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{47733103-13F4-4171-AD09-D7CB7FE88F0B} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
