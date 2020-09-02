@@ -94,6 +94,7 @@
             this.btnTryParse.TabIndex = 1;
             this.btnTryParse.Text = "TryParse";
             this.btnTryParse.UseVisualStyleBackColor = true;
+            this.btnTryParse.Click += new System.EventHandler(this.btnTryParse_Click);
             // 
             // btnParse
             // 

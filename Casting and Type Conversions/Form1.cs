@@ -46,5 +46,17 @@ namespace Casting_and_Type_Conversions
             sbyte num = sbyte.Parse(txtInput.Text);
             lblOutput.Text = num.ToString();
         }
+
+        private void btnTryParse_Click(object sender, EventArgs e)
+        {
+            // TryParse returns true if the conversion succeeded 
+            // and stores the result in the specified variable. 
+            int num;
+            bool result = Int32.TryParse(txtInput.Text, out num);
+            if (result == true)
+                lblOutput.Text = num.ToString();
+            else
+                lblOutput.Text = "Ooops!";
+        }
     }
 }
