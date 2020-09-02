@@ -83,5 +83,23 @@ namespace Casting_and_Type_Conversions
 
             MessageBox.Show(this, amount.ToString());
         }
+
+        private void btnRemoveSpace_Click(object sender, EventArgs e)
+        {
+            // NOT Recommended
+            //Conversion.Val https://msdn.microsoft.com/en-us/library/9da280t0%28v=vs.110%29.aspx
+            //int num = Convert.ToInt32(Microsoft.VisualBasic.Conversion.Val(txtInput.Text));
+            //lblOutput.Text = num.ToString();
+            
+            //Or
+            //IsDigit: Indicates whether the specified Unicode character is categorized as a decimal digit.
+            //https://msdn.microsoft.com/en-us/library/System.Char_methods(v=vs.110).aspx
+            var formattedNum = new string(txtInput.Text.Where(c => char.IsDigit(c) || c == '.').ToArray());
+            lblOutput.Text = formattedNum;
+
+            //Or
+            //string unformattedNum = txtInput.Text.Replace(" ", string.Empty);
+            //lblOutput.Text = unformattedNum;
+        }
     }
 }

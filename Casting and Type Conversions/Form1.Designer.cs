@@ -115,6 +115,7 @@
             this.btnRemoveSpace.TabIndex = 1;
             this.btnRemoveSpace.Text = "Remove Spaces";
             this.btnRemoveSpace.UseVisualStyleBackColor = true;
+            this.btnRemoveSpace.Click += new System.EventHandler(this.btnRemoveSpace_Click);
             // 
             // btnConvertClass
             // 
