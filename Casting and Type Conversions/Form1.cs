@@ -58,5 +58,29 @@ namespace Casting_and_Type_Conversions
             else
                 lblOutput.Text = "Ooops!";
         }
+
+        private void btnParseWithNumberStyle_Click(object sender, EventArgs e)
+        {
+            //Source: MCSD Cert. Toolkit / 70-483
+
+            decimal amount;
+
+            if (chkConvertWithSymbols.Checked == false)
+            {
+                amount = decimal.Parse("$123,456.78");
+            }
+            else
+            {
+                amount = decimal.Parse("$123,456.78",
+                   NumberStyles.AllowCurrencySymbol |
+                   NumberStyles.AllowThousands |
+                   NumberStyles.AllowDecimalPoint);
+
+                //amount = decimal.Parse("123,456.78"); // This will work
+            }
+
+
+            MessageBox.Show(this, amount.ToString());
+        }
     }
 }

@@ -76,6 +76,7 @@
             this.btnParseWithNumberStyle.TabIndex = 3;
             this.btnParseWithNumberStyle.Text = "Parse with NumberStyle";
             this.btnParseWithNumberStyle.UseVisualStyleBackColor = true;
+            this.btnParseWithNumberStyle.Click += new System.EventHandler(this.btnParseWithNumberStyle_Click);
             // 
             // lblOutput
             // 
