@@ -37,11 +37,13 @@
             this.btnRemoveSpace = new System.Windows.Forms.Button();
             this.btnConvertClass = new System.Windows.Forms.Button();
             this.txtInput = new System.Windows.Forms.TextBox();
+            this.lnkHelp1 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.lnkHelp1);
             this.groupBox1.Controls.Add(this.chkConvertWithSymbols);
             this.groupBox1.Controls.Add(this.btnParseWithNumberStyle);
             this.groupBox1.Controls.Add(this.lblOutput);
@@ -135,6 +137,17 @@
             this.txtInput.TabIndex = 0;
             this.txtInput.Text = "50";
             // 
+            // lnkHelp1
+            // 
+            this.lnkHelp1.AutoSize = true;
+            this.lnkHelp1.Location = new System.Drawing.Point(16, 372);
+            this.lnkHelp1.Name = "lnkHelp1";
+            this.lnkHelp1.Size = new System.Drawing.Size(194, 17);
+            this.lnkHelp1.TabIndex = 5;
+            this.lnkHelp1.TabStop = true;
+            this.lnkHelp1.Text = "Casting and type conversions";
+            this.lnkHelp1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkHelp1_LinkClicked);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -160,6 +173,7 @@
         private System.Windows.Forms.Button btnRemoveSpace;
         private System.Windows.Forms.Button btnConvertClass;
         private System.Windows.Forms.TextBox txtInput;
+        private System.Windows.Forms.LinkLabel lnkHelp1;
     }
 }
 

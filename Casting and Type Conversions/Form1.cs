@@ -101,5 +101,10 @@ namespace Casting_and_Type_Conversions
             //string unformattedNum = txtInput.Text.Replace(" ", string.Empty);
             //lblOutput.Text = unformattedNum;
         }
+
+        private void lnkHelp1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions");
+        }
     }
 }
