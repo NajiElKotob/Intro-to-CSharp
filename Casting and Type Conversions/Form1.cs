@@ -29,6 +29,7 @@ namespace Casting_and_Type_Conversions
             try
             {
                 sbyte num = Convert.ToSByte(txtInput.Text);
+                num += 10; //add 10
                 lblOutput.Text = num.ToString();
             }
             catch (FormatException ex)
@@ -45,6 +46,7 @@ namespace Casting_and_Type_Conversions
         {
             // If the string is not in a valid format, Parse throws an exception 
             sbyte num = sbyte.Parse(txtInput.Text);
+            num += 10; //add 10
             lblOutput.Text = num.ToString();
         }
 
@@ -53,9 +55,12 @@ namespace Casting_and_Type_Conversions
             // TryParse returns true if the conversion succeeded 
             // and stores the result in the specified variable. 
             int num;
-            bool result = Int32.TryParse(txtInput.Text, out num);
+            bool result = int.TryParse(txtInput.Text, out num);
             if (result == true)
+            {
+                num += 10; //add 10
                 lblOutput.Text = num.ToString();
+            }
             else
                 lblOutput.Text = "Ooops!";
         }
@@ -90,7 +95,7 @@ namespace Casting_and_Type_Conversions
             //Conversion.Val https://msdn.microsoft.com/en-us/library/9da280t0%28v=vs.110%29.aspx
             //int num = Convert.ToInt32(Microsoft.VisualBasic.Conversion.Val(txtInput.Text));
             //lblOutput.Text = num.ToString();
-            
+
             //Or
             //IsDigit: Indicates whether the specified Unicode character is categorized as a decimal digit.
             //https://msdn.microsoft.com/en-us/library/System.Char_methods(v=vs.110).aspx
@@ -105,6 +110,13 @@ namespace Casting_and_Type_Conversions
         private void lnkHelp1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions");
+        }
+
+        private void btnImplicitConversation_Click(object sender, EventArgs e)
+        {
+            var num = txtInput.Text;
+            num += 10; //add 10
+            lblOutput.Text = num.ToString();
         }
     }
 }

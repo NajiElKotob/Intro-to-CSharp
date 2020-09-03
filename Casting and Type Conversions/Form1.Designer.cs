@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lnkHelp1 = new System.Windows.Forms.LinkLabel();
             this.chkConvertWithSymbols = new System.Windows.Forms.CheckBox();
             this.btnParseWithNumberStyle = new System.Windows.Forms.Button();
             this.lblOutput = new System.Windows.Forms.Label();
@@ -37,12 +38,13 @@
             this.btnRemoveSpace = new System.Windows.Forms.Button();
             this.btnConvertClass = new System.Windows.Forms.Button();
             this.txtInput = new System.Windows.Forms.TextBox();
-            this.lnkHelp1 = new System.Windows.Forms.LinkLabel();
+            this.btnImplicitConversation = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnImplicitConversation);
             this.groupBox1.Controls.Add(this.lnkHelp1);
             this.groupBox1.Controls.Add(this.chkConvertWithSymbols);
             this.groupBox1.Controls.Add(this.btnParseWithNumberStyle);
@@ -54,17 +56,28 @@
             this.groupBox1.Controls.Add(this.txtInput);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(246, 409);
+            this.groupBox1.Size = new System.Drawing.Size(246, 509);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Convert a String to a Number ";
+            // 
+            // lnkHelp1
+            // 
+            this.lnkHelp1.AutoSize = true;
+            this.lnkHelp1.Location = new System.Drawing.Point(16, 433);
+            this.lnkHelp1.Name = "lnkHelp1";
+            this.lnkHelp1.Size = new System.Drawing.Size(194, 17);
+            this.lnkHelp1.TabIndex = 5;
+            this.lnkHelp1.TabStop = true;
+            this.lnkHelp1.Text = "Casting and type conversions";
+            this.lnkHelp1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkHelp1_LinkClicked);
             // 
             // chkConvertWithSymbols
             // 
             this.chkConvertWithSymbols.AutoSize = true;
             this.chkConvertWithSymbols.Checked = true;
             this.chkConvertWithSymbols.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkConvertWithSymbols.Location = new System.Drawing.Point(210, 219);
+            this.chkConvertWithSymbols.Location = new System.Drawing.Point(210, 280);
             this.chkConvertWithSymbols.Name = "chkConvertWithSymbols";
             this.chkConvertWithSymbols.Size = new System.Drawing.Size(18, 17);
             this.chkConvertWithSymbols.TabIndex = 4;
@@ -72,7 +85,7 @@
             // 
             // btnParseWithNumberStyle
             // 
-            this.btnParseWithNumberStyle.Location = new System.Drawing.Point(7, 205);
+            this.btnParseWithNumberStyle.Location = new System.Drawing.Point(7, 266);
             this.btnParseWithNumberStyle.Name = "btnParseWithNumberStyle";
             this.btnParseWithNumberStyle.Size = new System.Drawing.Size(197, 42);
             this.btnParseWithNumberStyle.TabIndex = 3;
@@ -91,7 +104,7 @@
             // 
             // btnTryParse
             // 
-            this.btnTryParse.Location = new System.Drawing.Point(7, 157);
+            this.btnTryParse.Location = new System.Drawing.Point(7, 218);
             this.btnTryParse.Name = "btnTryParse";
             this.btnTryParse.Size = new System.Drawing.Size(197, 42);
             this.btnTryParse.TabIndex = 1;
@@ -101,7 +114,7 @@
             // 
             // btnParse
             // 
-            this.btnParse.Location = new System.Drawing.Point(7, 109);
+            this.btnParse.Location = new System.Drawing.Point(7, 170);
             this.btnParse.Name = "btnParse";
             this.btnParse.Size = new System.Drawing.Size(197, 42);
             this.btnParse.TabIndex = 1;
@@ -111,7 +124,7 @@
             // 
             // btnRemoveSpace
             // 
-            this.btnRemoveSpace.Location = new System.Drawing.Point(7, 280);
+            this.btnRemoveSpace.Location = new System.Drawing.Point(7, 341);
             this.btnRemoveSpace.Name = "btnRemoveSpace";
             this.btnRemoveSpace.Size = new System.Drawing.Size(197, 42);
             this.btnRemoveSpace.TabIndex = 1;
@@ -121,7 +134,7 @@
             // 
             // btnConvertClass
             // 
-            this.btnConvertClass.Location = new System.Drawing.Point(7, 61);
+            this.btnConvertClass.Location = new System.Drawing.Point(7, 122);
             this.btnConvertClass.Name = "btnConvertClass";
             this.btnConvertClass.Size = new System.Drawing.Size(197, 42);
             this.btnConvertClass.TabIndex = 1;
@@ -137,22 +150,21 @@
             this.txtInput.TabIndex = 0;
             this.txtInput.Text = "50";
             // 
-            // lnkHelp1
+            // btnImplicitConversation
             // 
-            this.lnkHelp1.AutoSize = true;
-            this.lnkHelp1.Location = new System.Drawing.Point(16, 372);
-            this.lnkHelp1.Name = "lnkHelp1";
-            this.lnkHelp1.Size = new System.Drawing.Size(194, 17);
-            this.lnkHelp1.TabIndex = 5;
-            this.lnkHelp1.TabStop = true;
-            this.lnkHelp1.Text = "Casting and type conversions";
-            this.lnkHelp1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkHelp1_LinkClicked);
+            this.btnImplicitConversation.Location = new System.Drawing.Point(7, 74);
+            this.btnImplicitConversation.Name = "btnImplicitConversation";
+            this.btnImplicitConversation.Size = new System.Drawing.Size(197, 42);
+            this.btnImplicitConversation.TabIndex = 2;
+            this.btnImplicitConversation.Text = "Implicity Conversion";
+            this.btnImplicitConversation.UseVisualStyleBackColor = true;
+            this.btnImplicitConversation.Click += new System.EventHandler(this.btnImplicitConversation_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 433);
+            this.ClientSize = new System.Drawing.Size(384, 533);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmMain";
             this.Text = "Casting and Type Conversions";
@@ -174,6 +186,7 @@
         private System.Windows.Forms.Button btnConvertClass;
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.LinkLabel lnkHelp1;
+        private System.Windows.Forms.Button btnImplicitConversation;
     }
 }
 

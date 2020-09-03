@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Citation
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -36,7 +36,7 @@ namespace Citation
                 authorForm.txtLastName.Text = tmpArray[0].Trim();
             }
 
-            if (authorForm.ShowDialog() == DialogResult.OK)
+            if (authorForm.ShowDialog(this) == DialogResult.OK)
             {
                 // MessageBox.Show("Ok");
 
