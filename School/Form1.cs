@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace School
 {
-    public partial class frmMain : Form
+    public partial class MainForm : Form
     {
-        public frmMain()
+        public MainForm()
         {
             InitializeComponent();
         }
