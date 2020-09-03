@@ -33,7 +33,7 @@ namespace Casting_and_Type_Conversions
             }
             catch (FormatException ex)
             {
-                MessageBox.Show($"Formate Exception: {ex.Message}");
+                MessageBox.Show($"Format Exception: {ex.Message}");
             }
             catch (Exception ex)
             {
