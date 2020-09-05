@@ -7,8 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hello World", "1. Hello 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Variables", "2. Variables", "{4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types and Variables (Console)", "Data Types and Variables (Console)\Data Types and Variables (Console).csproj", "{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Classes and Methods", "3. Classes and Methods", "{A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Handling Exceptions", "4. Handling Exceptions", "{48EB8337-BA81-44AE-9E92-56A67E6550AB}"
@@ -24,8 +22,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Files and Directories", "6. Files and Directories", "{40942329-E60D-4424-B8B5-4C3512915AAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. LINQ", "9. LINQ", "{5EFB70B1-9D0B-44C4-9114-4B4257E74F4F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting and Type Conversions", "Casting and Type Conversions\Casting and Type Conversions.csproj", "{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms Projects", "WinForms Projects", "{8F321C35-915A-4082-A513-B7AF588CDFF8}"
 EndProject
@@ -43,20 +39,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World (WPF)", "1. Hel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickMe", "Coding4Fun\ClickMe\ClickMe.csproj", "{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casting and Type Conversions", "2. Variables\Casting and Type Conversions\Casting and Type Conversions.csproj", "{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Types and Variables (Console)", "2. Variables\Data Types and Variables (Console)\Data Types and Variables (Console).csproj", "{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,19 +73,27 @@ Global
 		{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
-		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7} = {8F321C35-915A-4082-A513-B7AF588CDFF8}
 		{154E8DA4-1246-4DF0-8479-3778EC21ACB0} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{A722C13C-3686-462B-9173-1498ADF82E00} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{A0857EF0-418A-4BB1-A084-18DF7866B33E} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{2C94DFFE-C6FD-4951-A720-E171BAEA9289} = {BF22DA3B-540B-4499-8DC1-1383A219F060}
 		{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8} = {BF2C21AA-3A27-4B03-8806-F274003A05AE}
+		{2628F17D-61B1-49E9-B5DF-8C6DDF8176E2} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
+		{ADABC4BD-DCC6-4034-BA31-BEBA648C90A6} = {4CAD8EE5-2EF5-41B0-8F5E-EF65A53368DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
