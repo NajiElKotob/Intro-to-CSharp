@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCEB8050-B10A-41CF-AC9B-1D36E694B0C1}</ProjectGuid>
+    <ProjectGuid>{AA45D2CE-0368-407C-ABCF-D1E0043F4CE8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>School</RootNamespace>
-    <AssemblyName>School</AssemblyName>
+    <RootNamespace>ClickMe</RootNamespace>
+    <AssemblyName>ClickMe</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,12 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StudendForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="StudendForm.Designer.cs">
-      <DependentUpon>StudendForm.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StudendForm.resx">
-      <DependentUpon>StudendForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

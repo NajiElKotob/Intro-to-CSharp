@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace School
+namespace ClickMe
 {
-    public partial class StudendForm : Form
+    public partial class Form1 : Form
     {
-        public StudendForm()
+        public Form1()
         {
             InitializeComponent();
         }

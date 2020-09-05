@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace School.Properties
+namespace ClickMe.Properties
 {
 
 
