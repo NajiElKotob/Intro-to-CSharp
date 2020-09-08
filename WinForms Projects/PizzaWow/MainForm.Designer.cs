@@ -80,6 +80,8 @@
             // 
             // cboPizza
             // 
+            this.cboPizza.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cboPizza.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.cboPizza.FormattingEnabled = true;
             this.cboPizza.Location = new System.Drawing.Point(86, 68);
             this.cboPizza.Name = "cboPizza";
