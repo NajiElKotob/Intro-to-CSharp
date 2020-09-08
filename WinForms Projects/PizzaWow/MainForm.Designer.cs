@@ -71,11 +71,14 @@
             // 
             // lstOrders
             // 
+            this.lstOrders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lstOrders.FormattingEnabled = true;
             this.lstOrders.ItemHeight = 16;
             this.lstOrders.Location = new System.Drawing.Point(15, 202);
             this.lstOrders.Name = "lstOrders";
-            this.lstOrders.Size = new System.Drawing.Size(583, 244);
+            this.lstOrders.Size = new System.Drawing.Size(587, 260);
             this.lstOrders.TabIndex = 4;
             // 
             // cboPizza
@@ -87,6 +90,8 @@
             this.cboPizza.Name = "cboPizza";
             this.cboPizza.Size = new System.Drawing.Size(269, 24);
             this.cboPizza.TabIndex = 5;
+            this.cboPizza.SelectedIndexChanged += new System.EventHandler(this.cboPizza_SelectedIndexChanged);
+            this.cboPizza.TextChanged += new System.EventHandler(this.cboPizza_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -109,6 +114,16 @@
             // numQty
             // 
             this.numQty.Location = new System.Drawing.Point(86, 115);
+            this.numQty.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numQty.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numQty.Name = "numQty";
             this.numQty.Size = new System.Drawing.Size(120, 22);
             this.numQty.TabIndex = 8;
@@ -120,6 +135,7 @@
             // 
             // btnAdd
             // 
+            this.btnAdd.Enabled = false;
             this.btnAdd.Location = new System.Drawing.Point(235, 150);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(120, 32);
@@ -132,7 +148,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(610, 464);
+            this.ClientSize = new System.Drawing.Size(614, 481);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.numQty);
             this.Controls.Add(this.label3);

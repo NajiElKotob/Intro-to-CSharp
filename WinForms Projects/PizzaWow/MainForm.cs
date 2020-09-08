@@ -35,6 +35,12 @@ namespace PizzaWow
 
             for (int i = 0; i < pizzaTypes.Length; i++)
             {
+                //Item item = new Item();
+                //item.Id = i + 1;
+                //item.Name = pizzaTypes[i];
+                //item.Price = pizzaPrices[i];
+                //or
+
                 var item = new Item { Id = i + 1, Name = pizzaTypes[i], Price = pizzaPrices[i] };
                 cboPizza.Items.Add(item);
             }
@@ -43,6 +49,14 @@ namespace PizzaWow
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+
+            if (cboPizza.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a Pizza");
+                cboPizza.Focus();
+                return;
+            }
+
             var o = new Order
             {
                 Id = lstOrders.Items.Count + 1,
@@ -54,6 +68,11 @@ namespace PizzaWow
             };
 
             lstOrders.Items.Add(o);
+        }
+
+        private void cboPizza_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnAdd.Enabled = !(cboPizza.SelectedItem == null);
         }
     }
 }

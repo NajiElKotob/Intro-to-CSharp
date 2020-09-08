@@ -23,7 +23,7 @@ namespace PizzaWow.Model
 
         public override string ToString()
         {
-            return $"{Item.Name} - {Quantity} x {Item.Price} \t {Item.Price * Quantity}";
+            return $"{Item.Name} - {Quantity} x {Item.Price}  {Item.Price * Quantity}";
         }
     }
 }
