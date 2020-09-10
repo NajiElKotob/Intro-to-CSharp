@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic CRUD with EF", "8. En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Citation", "WinForms Projects\Citation\Citation.csproj", "{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "4. HandlingExceptions\HandlingExceptions\HandlingExceptions.csproj", "{7CEE6915-4EA1-4950-8F78-E34D654AE5F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{B5F552A8-1CEF-43E3-A6A3-AFC89BF0DD84} = {8F321C35-915A-4082-A513-B7AF588CDFF8}
 		{F0998324-0E5C-4832-810E-3FCB5050D7C4} = {FDAC9C07-9A4A-489E-9394-D91337FFF9D6}
 		{F1F99D0B-AC2D-4798-A7A5-FDAC945F21B7} = {8F321C35-915A-4082-A513-B7AF588CDFF8}
+		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3} = {48EB8337-BA81-44AE-9E92-56A67E6550AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
