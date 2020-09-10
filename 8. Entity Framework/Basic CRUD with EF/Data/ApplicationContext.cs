@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Basic_CRUD_with_EF.Data
 {
-    class ApplicationContext : DbContext
+    class CrmContext : DbContext
     {
-        public ApplicationContext()
+        public CrmContext()
         {
 
         }

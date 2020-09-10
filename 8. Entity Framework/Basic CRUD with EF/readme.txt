@@ -9,3 +9,10 @@
 
 
 Enjoy EF https://www.entityframeworktutorial.net/entityframework6/introduction.aspx
+
+
+Database
+- View > SQL Server Object Explorer > localdb\MSSQLLocalDB
+Ref.
+https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15
+https://www.sqlshack.com/install-microsoft-sql-server-express-localdb/

@@ -12,11 +12,16 @@ namespace Basic_CRUD_with_EF.Model
 
         public string Name { get; set; }
 
-        public DateTime DOB { get; set; }
+        public DateTime? DOB { get; set; }
 
         public Decimal OpenBalance { get; set; }
 
         public bool NewsletterSubscription { get; set; }
+
+        public override string ToString()
+        {
+            return Name;
+        }
 
     }
 }
