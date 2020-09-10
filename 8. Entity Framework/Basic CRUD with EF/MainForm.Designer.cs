@@ -1,6 +1,6 @@
 ﻿namespace Basic_CRUD_with_EF
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
