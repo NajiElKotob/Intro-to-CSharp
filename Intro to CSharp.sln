@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "7. Object O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "7. Object Oriented\Abstract\Abstract\Abstract.csproj", "{D80C69CD-1F70-4AC9-BB85-5934A3605F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashing", "10. Encryption and Decryption\Hashing\Hashing\Hashing.csproj", "{57553BE6-41DE-4881-A34D-5C27912E983E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{D80C69CD-1F70-4AC9-BB85-5934A3605F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D80C69CD-1F70-4AC9-BB85-5934A3605F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D80C69CD-1F70-4AC9-BB85-5934A3605F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57553BE6-41DE-4881-A34D-5C27912E983E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57553BE6-41DE-4881-A34D-5C27912E983E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57553BE6-41DE-4881-A34D-5C27912E983E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57553BE6-41DE-4881-A34D-5C27912E983E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +135,7 @@ Global
 		{7CEE6915-4EA1-4950-8F78-E34D654AE5F3} = {48EB8337-BA81-44AE-9E92-56A67E6550AB}
 		{2A4BA6DB-E1BE-4DB3-AFED-6CAAAD0FB3C4} = {871724D7-AE35-4CA9-A8D1-52FE1E8E2B81}
 		{D80C69CD-1F70-4AC9-BB85-5934A3605F71} = {871724D7-AE35-4CA9-A8D1-52FE1E8E2B81}
+		{57553BE6-41DE-4881-A34D-5C27912E983E} = {C9A75C10-9C1E-4CFE-B9E5-5675DAB90944}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
