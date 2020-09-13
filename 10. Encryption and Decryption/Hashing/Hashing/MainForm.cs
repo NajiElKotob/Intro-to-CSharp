@@ -39,12 +39,12 @@ namespace Hashing
 
         private static string GetStringFromHash(byte[] hash)
         {
-            StringBuilder result = new StringBuilder();
+            StringBuilder sb = new StringBuilder();
             for (int i = 0; i < hash.Length; i++)
             {
-                result.Append(hash[i].ToString("X2"));
+                sb.Append(hash[i].ToString("X2"));
             }
-            return result.ToString();
+            return sb.ToString();     
         }
     }
 }
