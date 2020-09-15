@@ -22,7 +22,9 @@ namespace Files_and_Directories
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            var file = folder + GetTempFile();
+            //var file = folder + GetTempFile();
+            // or
+            var file = folder + Utilities.GetTempFile();
 
             // Open the stream and write to it.
             using (StreamWriter sw = new StreamWriter(file))
@@ -45,10 +47,15 @@ namespace Files_and_Directories
             // Process the list of files found in the directory.
             // https://docs.microsoft.com/en-us/dotnet/api/system.io.directory.getfiles
             string[] fileEntries = Directory.GetFiles(this.folder,"*.txt");
+
+
+            var i = 0;
+
             foreach (string fileName in fileEntries)
             {
+                i++;
                 lstFiles.Items.Add(new ItemList { 
-                    DisplayValue = Path.GetFileName(fileName),
+                    DisplayValue = $"{i:00} - {Path.GetFileName(fileName)}", 
                     ObjectValue = fileName
                 });
             }

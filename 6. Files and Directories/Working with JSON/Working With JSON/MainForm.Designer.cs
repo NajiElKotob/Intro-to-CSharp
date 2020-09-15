@@ -28,60 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSerialize = new System.Windows.Forms.Button();
-            this.btnDeserialize = new System.Windows.Forms.Button();
-            this.txtOutput = new System.Windows.Forms.TextBox();
+            this.btnSample1 = new System.Windows.Forms.Button();
+            this.btnSample2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnSerialize
+            // btnSample1
             // 
-            this.btnSerialize.Location = new System.Drawing.Point(12, 42);
-            this.btnSerialize.Name = "btnSerialize";
-            this.btnSerialize.Size = new System.Drawing.Size(158, 23);
-            this.btnSerialize.TabIndex = 0;
-            this.btnSerialize.Text = "Serialize";
-            this.btnSerialize.UseVisualStyleBackColor = true;
-            this.btnSerialize.Click += new System.EventHandler(this.btnSerialize_Click);
+            this.btnSample1.Location = new System.Drawing.Point(12, 27);
+            this.btnSample1.Name = "btnSample1";
+            this.btnSample1.Size = new System.Drawing.Size(290, 33);
+            this.btnSample1.TabIndex = 0;
+            this.btnSample1.Text = "Sample 1";
+            this.btnSample1.UseVisualStyleBackColor = true;
+            this.btnSample1.Click += new System.EventHandler(this.btnSample1_Click);
             // 
-            // btnDeserialize
+            // btnSample2
             // 
-            this.btnDeserialize.Location = new System.Drawing.Point(12, 13);
-            this.btnDeserialize.Name = "btnDeserialize";
-            this.btnDeserialize.Size = new System.Drawing.Size(158, 23);
-            this.btnDeserialize.TabIndex = 1;
-            this.btnDeserialize.Text = "Deserialize";
-            this.btnDeserialize.UseVisualStyleBackColor = true;
-            this.btnDeserialize.Click += new System.EventHandler(this.btnDeserialize_Click);
-            // 
-            // txtOutput
-            // 
-            this.txtOutput.Location = new System.Drawing.Point(193, 13);
-            this.txtOutput.Multiline = true;
-            this.txtOutput.Name = "txtOutput";
-            this.txtOutput.Size = new System.Drawing.Size(446, 425);
-            this.txtOutput.TabIndex = 2;
+            this.btnSample2.Location = new System.Drawing.Point(12, 66);
+            this.btnSample2.Name = "btnSample2";
+            this.btnSample2.Size = new System.Drawing.Size(290, 33);
+            this.btnSample2.TabIndex = 1;
+            this.btnSample2.Text = "Sample2";
+            this.btnSample2.UseVisualStyleBackColor = true;
+            this.btnSample2.Click += new System.EventHandler(this.btnSample2_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(652, 450);
-            this.Controls.Add(this.txtOutput);
-            this.Controls.Add(this.btnDeserialize);
-            this.Controls.Add(this.btnSerialize);
+            this.ClientSize = new System.Drawing.Size(317, 127);
+            this.Controls.Add(this.btnSample2);
+            this.Controls.Add(this.btnSample1);
             this.Name = "MainForm";
             this.Text = "Working with JSON";
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnSerialize;
-        private System.Windows.Forms.Button btnDeserialize;
-        private System.Windows.Forms.TextBox txtOutput;
+        private System.Windows.Forms.Button btnSample1;
+        private System.Windows.Forms.Button btnSample2;
     }
 }
-
