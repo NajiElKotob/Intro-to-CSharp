@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encoding", "6. Files and Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working With JSON", "6. Files and Directories\Working with JSON\Working With JSON\Working With JSON.csproj", "{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with XML", "6. Files and Directories\Working with XML\Working with XML\Working with XML.csproj", "{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +170,7 @@ Global
 		{7A564CEB-1906-4580-8FE7-5B45D9702261} = {05596827-EC6D-4225-8EA7-A7FADDA0CCF9}
 		{F7F26CAE-A632-473C-B25D-2A5527217C92} = {40942329-E60D-4424-B8B5-4C3512915AAB}
 		{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD} = {40942329-E60D-4424-B8B5-4C3512915AAB}
+		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03} = {40942329-E60D-4424-B8B5-4C3512915AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
