@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashing", "10. Encryption a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files and Directories", "6. Files and Directories\Files and Directories\Files and Directories\Files and Directories.csproj", "{B65B8AF4-8020-4141-84E5-FF305CB41CF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "5. Arrays and Collections\Arrays\Arrays.csproj", "{7A564CEB-1906-4580-8FE7-5B45D9702261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encoding", "6. Files and Directories\Encoding\Encoding.csproj", "{F7F26CAE-A632-473C-B25D-2A5527217C92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{B65B8AF4-8020-4141-84E5-FF305CB41CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B65B8AF4-8020-4141-84E5-FF305CB41CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B65B8AF4-8020-4141-84E5-FF305CB41CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A564CEB-1906-4580-8FE7-5B45D9702261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A564CEB-1906-4580-8FE7-5B45D9702261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A564CEB-1906-4580-8FE7-5B45D9702261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A564CEB-1906-4580-8FE7-5B45D9702261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F26CAE-A632-473C-B25D-2A5527217C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F26CAE-A632-473C-B25D-2A5527217C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F26CAE-A632-473C-B25D-2A5527217C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F26CAE-A632-473C-B25D-2A5527217C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +155,8 @@ Global
 		{D80C69CD-1F70-4AC9-BB85-5934A3605F71} = {871724D7-AE35-4CA9-A8D1-52FE1E8E2B81}
 		{57553BE6-41DE-4881-A34D-5C27912E983E} = {C9A75C10-9C1E-4CFE-B9E5-5675DAB90944}
 		{B65B8AF4-8020-4141-84E5-FF305CB41CF2} = {40942329-E60D-4424-B8B5-4C3512915AAB}
+		{7A564CEB-1906-4580-8FE7-5B45D9702261} = {05596827-EC6D-4225-8EA7-A7FADDA0CCF9}
+		{F7F26CAE-A632-473C-B25D-2A5527217C92} = {40942329-E60D-4424-B8B5-4C3512915AAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
