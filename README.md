@@ -7,7 +7,8 @@
 * Arrays and Collections
 * Methods and Classes
 * Handling Exceptions
-* Reading and Writing Local Data
+* Files and Directories
+* XML and JSON
 * Object-oriented programming (OOP)
 
 # Data
