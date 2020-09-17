@@ -7,6 +7,7 @@
 * Basic types and constructs of Visual C#
   * [Program building blocks](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
 * Data Types and Variables
+  * [Types and variables](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#types-and-variables)
 * Arrays and Collections
 * Methods and Classes
 * Handling Exceptions
