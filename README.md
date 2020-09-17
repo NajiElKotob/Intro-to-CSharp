@@ -18,6 +18,8 @@
 
 # Data
 * Entity Framework Code First
+  * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
+  * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 * Database
 * Remote Data
 
