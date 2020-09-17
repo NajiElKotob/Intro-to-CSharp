@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,9 @@ namespace Abstract
         {
             new Square(5, "Square #1"),
             new Circle(3, "Circle #1"),
-            new Rectangle( 4, 5, "Rectangle #1")
+            new Rectangle( 4, 5, "Rectangle #1"),
+            new Triangle( 10, 5, "Triangle #1")
+
         };
 
             System.Console.WriteLine("Shapes Collection");
@@ -37,6 +40,10 @@ namespace Abstract
             }
 
             Console.ReadLine();
+
+
+
+           
         }
     }
 
@@ -50,6 +57,7 @@ namespace Abstract
             Id = s;
         }
 
+     
         public string Id
         {
             get
@@ -76,6 +84,21 @@ namespace Abstract
     }
 
 
+    public class Triangle : Shape
+    {
+        private int baseValue;
+        private int heightValue;
+
+        public Triangle(int baseValue, int heightValue, string id):base(id)
+        {
+            this.baseValue = baseValue;
+            this.heightValue = heightValue;
+        }
+
+        
+        public override double Area => baseValue * heightValue / 2;
+    }
+
 
 
     public class Square : Shape
@@ -87,7 +110,7 @@ namespace Abstract
         {
             this.side = side;
         }
-
+      
         public override double Area
         {
             get

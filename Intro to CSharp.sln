@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working With JSON", "6. Fil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with XML", "6. Files and Directories\Working with XML\Working with XML\Working with XML.csproj", "{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Encryption", "10. Encryption and Decryption\File Encryption\File Encryption\File Encryption.csproj", "{2D3C9155-961D-4754-9436-97A68EAF2787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3C9155-961D-4754-9436-97A68EAF2787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3C9155-961D-4754-9436-97A68EAF2787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3C9155-961D-4754-9436-97A68EAF2787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3C9155-961D-4754-9436-97A68EAF2787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +177,7 @@ Global
 		{F7F26CAE-A632-473C-B25D-2A5527217C92} = {40942329-E60D-4424-B8B5-4C3512915AAB}
 		{F914C0FF-7C80-4361-BD3A-35AD2F1E38BD} = {40942329-E60D-4424-B8B5-4C3512915AAB}
 		{522FF6EF-8E57-4027-A33E-0CFE01C3FF03} = {40942329-E60D-4424-B8B5-4C3512915AAB}
+		{2D3C9155-961D-4754-9436-97A68EAF2787} = {C9A75C10-9C1E-4CFE-B9E5-5675DAB90944}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
