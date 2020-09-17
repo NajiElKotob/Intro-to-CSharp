@@ -14,6 +14,7 @@
 * Files and Directories
 * XML and JSON
 * Object-oriented programming (OOP)
+  * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
 # Data
 * Entity Framework Code First
