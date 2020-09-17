@@ -3,6 +3,7 @@
 ## Essential Knowledge
 * Visual C# Syntax
 * Basic types and constructs of Visual C#
+  * [Program building blocks](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
 * Data Types and Variables
 * Arrays and Collections
 * Methods and Classes
