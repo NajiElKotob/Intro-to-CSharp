@@ -4,6 +4,8 @@
 * .NET Languages and .NET Framework
   * [Introduction to the C# language and .NET](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework)
 * Visual C# Syntax
+  * [C# programming guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
+  * [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
 * Basic types and constructs of Visual C#
   * [Program building blocks](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
 * Data Types and Variables
