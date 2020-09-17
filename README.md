@@ -29,7 +29,7 @@
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
-# Data
+## Data
 * Entity Framework Code First
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
@@ -42,10 +42,13 @@
     * [Building a gRPC service with C#](https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp/index.html)
     * [gRPC .NET Examples](https://github.com/meteatamel/grpc-samples-dotnet)
 
-# Extra knowledge
+## Extra knowledge
 * User Interface for a Graphical Application
 * Application Performance and Responsiveness
 * Unmanaged Code
 * Reusable Types and Assemblies
 * Encryption and Decryption
 * Monitoring Applications
+
+## Tools
+* [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
