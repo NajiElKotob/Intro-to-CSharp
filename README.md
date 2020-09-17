@@ -18,6 +18,7 @@
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
   * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
 * Handling Exceptions
+  * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
 * Files and Directories
 * XML and JSON
 * Object-oriented programming (OOP)
