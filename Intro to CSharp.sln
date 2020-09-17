@@ -67,6 +67,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working with XML", "6. File
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File Encryption", "10. Encryption and Decryption\File Encryption\File Encryption\File Encryption.csproj", "{2D3C9155-961D-4754-9436-97A68EAF2787}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{11461D25-EDEC-4E48-9CF9-D8AD90038FCD}"
+	ProjectSection(SolutionItems) = preProject
+		Resources\DotNET Value and Reference types diagram.jpg = Resources\DotNET Value and Reference types diagram.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
