@@ -20,7 +20,9 @@
 * Handling Exceptions
   * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
 * Files and Directories
+  * [How to get information about files, folders, and drives](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-get-information-about-files-folders-and-drives)
 * XML and JSON
+  * [XmlDocument Class](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument)
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
