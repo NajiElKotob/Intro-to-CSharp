@@ -11,11 +11,21 @@
 * Data Types and Variables
   * [Types and variables](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#types-and-variables)
 * Arrays and Collections
+  * [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+  * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
+  * [Array Class](https://docs.microsoft.com/en-us/dotnet/api/system.array)
 * Methods and Classes
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+  * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
 * Handling Exceptions
+  * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
+* Lambda
+  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * Files and Directories
+  * [How to get information about files, folders, and drives](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-get-information-about-files-folders-and-drives)
 * XML and JSON
+  * [XmlDocument Class](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument)
+  * [Json.NET](https://www.newtonsoft.com/json) - Popular high-performance JSON framework for .NET
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
