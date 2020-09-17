@@ -10,6 +10,7 @@
   * [Types and variables](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#types-and-variables)
 * Arrays and Collections
 * Methods and Classes
+  * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
 * Handling Exceptions
 * Files and Directories
 * XML and JSON
