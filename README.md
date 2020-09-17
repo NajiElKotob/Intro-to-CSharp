@@ -13,6 +13,7 @@
 * Arrays and Collections
 * Methods and Classes
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+  * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
 * Handling Exceptions
 * Files and Directories
 * XML and JSON
