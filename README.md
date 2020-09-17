@@ -25,9 +25,12 @@
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 * Database
 * Remote Data
-* OData
-  * [Understand OData in 6 steps](https://www.odata.org/getting-started/understand-odata-in-6-steps/)
-  * [Basic CRUD operations](https://docs.microsoft.com/en-us/odata/client/getting-started)
+  * OData
+    * [Understand OData in 6 steps](https://www.odata.org/getting-started/understand-odata-in-6-steps/)
+    * [Basic CRUD operations](https://docs.microsoft.com/en-us/odata/client/getting-started)
+  * gRPC
+    * [Building a gRPC service with C#](https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp/index.html)
+    * [gRPC .NET Examples](https://github.com/meteatamel/grpc-samples-dotnet)
 
 # Extra knowledge
 * User Interface for a Graphical Application
