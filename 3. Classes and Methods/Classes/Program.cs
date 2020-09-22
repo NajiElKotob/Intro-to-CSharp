@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 /*
 Classes (C# Programming Guide)
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes
@@ -34,6 +35,9 @@ namespace Classes
     {
         static void Main(string[] args)
         {
+            
+            
+
             //Empty class
             Console.WriteLine("Empty Class");
             EmptyClass emptyClass = new EmptyClass();
@@ -70,11 +74,6 @@ namespace Classes
             Console.WriteLine(new string('-', 20));
 
             Console.ReadLine();
-
-          
-
-
-
 
         }
     }
