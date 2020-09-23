@@ -27,6 +27,9 @@ public class Manager : Employee
 }
 
 
+Best way to repeat a character in C#
+https://stackoverflow.com/questions/411752/best-way-to-repeat-a-character-in-c-sharp
+
 */
 
 namespace Classes

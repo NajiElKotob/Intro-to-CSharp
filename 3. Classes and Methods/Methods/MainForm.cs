@@ -8,9 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-// Best way to repeat a character in C#
-// https://stackoverflow.com/questions/411752/best-way-to-repeat-a-character-in-c-sharp
+/* 
 
+Methods (C# Programming Guide)
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
+
+Named and Optional Arguments (C# Programming Guide)
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments
+
+*/
 
 namespace Methods
 {
@@ -25,5 +31,26 @@ namespace Methods
         {
 
         }
+
+        private void btnVAT11Prct_Click(object sender, EventArgs e)
+        {
+            VAT vat = new VAT();
+            MessageBox.Show(vat.CalculateVAT(1000m).ToString());
+        }
+
+        private void btnCalcVATTax_Click(object sender, EventArgs e)
+        {
+            VAT vat = new VAT();
+            MessageBox.Show(vat.CalculateVAT(1000m, 0.10m).ToString());
+        }
+
+        private void btnCalcVATTaxMargin_Click(object sender, EventArgs e)
+        {
+            VAT vat = new VAT();
+            MessageBox.Show(vat.CalculateVAT(1000m, 0.10m, .5m).ToString());
+        }
+
     }
+
+
 }
