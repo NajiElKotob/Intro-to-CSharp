@@ -65,6 +65,52 @@ namespace Language_INtegrated_Query
 
         private void btnObject_Click(object sender, EventArgs e)
         {
+            // Walkthrough: Writing Queries in C# (LINQ) https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq
+
+            var studentsCount = StudentManagement.GetStudents().Count().ToString();
+            lblOutputObject.Text = $"{studentsCount} students";
+
+            //First or Default
+            var firstStudent = StudentManagement.GetStudents().Where(s => s.ID == 111).FirstOrDefault();
+            var firstStudentNotExist = StudentManagement.GetStudents().Where(s => s.ID == 000).FirstOrDefault();
+
+            MessageBox.Show(firstStudent.First ?? "Not Found"); //?? https://www.c-sharpcorner.com/blogs/what-is-double-question-mark-operator-in-c-sharp1
+            MessageBox.Show($"{firstStudent.First}, {string.Join(", ", firstStudent.Scores)}");
+            MessageBox.Show($"{firstStudent.First}, Average: {firstStudent.Scores.Average()}");
+
+
+            MessageBox.Show(firstStudentNotExist?.First ?? "Not Found");
+
+
+            // List
+            var studentswithHighAverage = StudentManagement.GetStudents().
+                                Where(s => s.Scores.Average() > 85);
+
+            var studentList1 = "";
+            foreach (var student in studentswithHighAverage)
+            {
+                studentList1 += $"{student.First}, {student.Scores.Average().ToString()} \r\n";
+            }
+            MessageBox.Show(studentList1);
+
+
+            // New
+
+      var studentsNew = StudentManagement.GetStudents().
+                                Where(s => s.Scores.Average() > 85).Select(s =>
+                                new
+                                {
+                                    FullName = s.First + " " + s.Last,
+                                    ScoresAverage = s.Scores.Average()
+                                }
+                                );
+
+            var studentList2 = "";
+            foreach (var student in studentsNew)
+            {
+                studentList2 += $"{student.FullName}, {student.ScoresAverage} \r\n";
+            }
+            MessageBox.Show(studentList2);
 
         }
     }
