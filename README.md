@@ -16,12 +16,13 @@
     * [Collections with examples](http://zetcode.com/lang/csharp/collections/) - zetcode.com
   * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
   * [Array Class](https://docs.microsoft.com/en-us/dotnet/api/system.array)
-* Methods and Classes
-  * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+* Methods, Classes and Structures
   * Methods
     * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
     * [Named and Optional Arguments](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments)
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
+  * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+  * [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 * Handling Exceptions
   * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
 * Lambda
