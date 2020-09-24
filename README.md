@@ -64,6 +64,7 @@
 * Security
 * Monitoring Applications
   * [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
+  * [Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/net-logging-basics/) - loggly.com
 
 ## Tools
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
