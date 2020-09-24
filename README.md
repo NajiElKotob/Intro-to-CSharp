@@ -57,6 +57,7 @@
   * [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
 * Unmanaged Code
 * Reusable Types and Assemblies
+  * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
 * Monitoring Applications
