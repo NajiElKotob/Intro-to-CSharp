@@ -30,7 +30,8 @@ namespace Hashing
 
         private void btnHash_Click(object sender, EventArgs e)
         {
-            SHA256 sha256 = SHA256Managed.Create();
+            var sha256 = SHA256Managed.Create();
+           
             byte[] bytes = Encoding.UTF8.GetBytes(txtSalt.Text + "_" + txtInput.Text);
             byte[] hash = sha256.ComputeHash(bytes);
             lblOutput1.Text = GetStringFromHash(hash);
@@ -45,6 +46,11 @@ namespace Hashing
                 sb.Append(hash[i].ToString("X2"));
             }
             return sb.ToString();     
+        }
+
+        private void lblOutput1_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(lblOutput1.Text);
         }
     }
 }

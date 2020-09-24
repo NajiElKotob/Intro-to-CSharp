@@ -78,9 +78,10 @@ namespace Language_INtegrated_Query
             MessageBox.Show($"{firstStudent.First}, {string.Join(", ", firstStudent.Scores)}");
             MessageBox.Show($"{firstStudent.First}, Average: {firstStudent.Scores.Average()}");
 
-
+           
             MessageBox.Show(firstStudentNotExist?.First ?? "Not Found");
 
+     
 
             // List
             var studentsWithHighAverage = StudentManagement.GetStudents().
@@ -123,6 +124,11 @@ namespace Language_INtegrated_Query
             }
             MessageBox.Show(studentList3);
 
+        }
+
+        private void BtnIEnumerable_ContextMenuChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

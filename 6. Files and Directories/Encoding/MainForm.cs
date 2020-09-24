@@ -26,14 +26,14 @@ namespace Encoding
             UTF8
         }
 
+
         public MainForm()
         {
             InitializeComponent();
         }
 
 
-
-
+      
         private string Encode(string value, EncodeTypes encodeTypes)
         {
             //٠١٢٣٤٥٦٧٨٩
@@ -68,6 +68,11 @@ namespace Encoding
         private void btnUTF8_Click(object sender, EventArgs e)
         {
             lblOutput.Text = this.Encode(txtInput.Text, EncodeTypes.UTF8);
+
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
 
         }
     }

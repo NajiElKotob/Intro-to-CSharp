@@ -34,6 +34,7 @@
             this.lblOutput2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSalt = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnHash
@@ -56,16 +57,18 @@
             // lblOutput1
             // 
             this.lblOutput1.AutoSize = true;
-            this.lblOutput1.Location = new System.Drawing.Point(22, 116);
+            this.lblOutput1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput1.Location = new System.Drawing.Point(19, 133);
             this.lblOutput1.Name = "lblOutput1";
-            this.lblOutput1.Size = new System.Drawing.Size(20, 17);
+            this.lblOutput1.Size = new System.Drawing.Size(23, 17);
             this.lblOutput1.TabIndex = 2;
             this.lblOutput1.Text = "...";
+            this.lblOutput1.Click += new System.EventHandler(this.lblOutput1_Click);
             // 
             // lblOutput2
             // 
             this.lblOutput2.AutoSize = true;
-            this.lblOutput2.Location = new System.Drawing.Point(22, 142);
+            this.lblOutput2.Location = new System.Drawing.Point(19, 159);
             this.lblOutput2.Name = "lblOutput2";
             this.lblOutput2.Size = new System.Drawing.Size(20, 17);
             this.lblOutput2.TabIndex = 3;
@@ -87,11 +90,21 @@
             this.txtSalt.Size = new System.Drawing.Size(100, 22);
             this.txtSalt.TabIndex = 5;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(19, 110);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(157, 17);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Click on code to copy it.";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(832, 210);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSalt);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblOutput2);
@@ -114,6 +127,7 @@
         private System.Windows.Forms.Label lblOutput2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSalt;
+        private System.Windows.Forms.Label label2;
     }
 }
 

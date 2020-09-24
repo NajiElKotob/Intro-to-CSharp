@@ -19,4 +19,7 @@ namespace Encoding
             Application.Run(new MainForm());
         }
     }
+
+
+
 }
