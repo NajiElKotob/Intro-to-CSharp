@@ -54,6 +54,7 @@
   * Controls (WinForms)
   * XAML (WPF, UWP, Xamarin, WinUI)
 * Application Performance and Responsiveness
+  * [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
 * Unmanaged Code
 * Reusable Types and Assemblies
 * Encryption and Decryption
