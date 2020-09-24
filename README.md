@@ -11,7 +11,9 @@
 * Data Types and Variables
   * [Types and variables](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#types-and-variables)
 * Arrays and Collections
-  * [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+  * Collections
+    * [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+    * [Collections with examples](http://zetcode.com/lang/csharp/collections/) - zetcode.com
   * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
   * [Array Class](https://docs.microsoft.com/en-us/dotnet/api/system.array)
 * Methods and Classes
