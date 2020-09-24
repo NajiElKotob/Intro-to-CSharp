@@ -60,6 +60,7 @@
 * Reusable Types and Assemblies
   * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
+  * [Cryptography 101 - The Basics](https://www.youtube.com/watch?v=fNC3jCCGJ0o) - YouTube ~9min
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
   * [Creating a Cryptographic Application (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/standard/security/walkthrough-creating-a-cryptographic-application)
 * Security
