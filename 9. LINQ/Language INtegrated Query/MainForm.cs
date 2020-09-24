@@ -60,7 +60,7 @@ namespace Language_INtegrated_Query
             var scoreQuery = scores.Where(s => s > 80);
             lblOutputIEnumrable.Text = string.Join(", ", scoreQuery);
 
-            
+
         }
 
         private void btnObject_Click(object sender, EventArgs e)
@@ -83,34 +83,45 @@ namespace Language_INtegrated_Query
 
 
             // List
-            var studentswithHighAverage = StudentManagement.GetStudents().
+            var studentsWithHighAverage = StudentManagement.GetStudents().
                                 Where(s => s.Scores.Average() > 85);
 
             var studentList1 = "";
-            foreach (var student in studentswithHighAverage)
+            foreach (var student in studentsWithHighAverage)
             {
                 studentList1 += $"{student.First}, {student.Scores.Average().ToString()} \r\n";
             }
             MessageBox.Show(studentList1);
 
-
-            // New
-
-      var studentsNew = StudentManagement.GetStudents().
-                                Where(s => s.Scores.Average() > 85).Select(s =>
-                                new
-                                {
-                                    FullName = s.First + " " + s.Last,
-                                    ScoresAverage = s.Scores.Average()
-                                }
-                                );
+            //Update
+            var studentsWithUpperCase = StudentManagement.GetStudents().
+                    Select(
+                            s => { s.First = s.First.ToUpper(); return s; }
+                           );
 
             var studentList2 = "";
-            foreach (var student in studentsNew)
+            foreach (var student in studentsWithUpperCase)
             {
-                studentList2 += $"{student.FullName}, {student.ScoresAverage} \r\n";
+                studentList2 += $"{student.First} \r\n";
             }
             MessageBox.Show(studentList2);
+
+            // New
+            var studentsNew = StudentManagement.GetStudents().
+                                      Where(s => s.Scores.Average() > 85).Select(s =>
+                                      new
+                                      {
+                                          FullName = s.First + " " + s.Last,
+                                          ScoresAverage = s.Scores.Average()
+                                      }
+                                      );
+
+            var studentList3 = "";
+            foreach (var student in studentsNew)
+            {
+                studentList3 += $"{student.FullName}, {student.ScoresAverage} \r\n";
+            }
+            MessageBox.Show(studentList3);
 
         }
     }
