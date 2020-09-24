@@ -50,6 +50,9 @@
 
 ## Extra knowledge
 * User Interface for a Graphical Application
+  * HTML and CSS (ASP.NET MVC)
+  * Controls (WinForms)
+  * XAML (WPF, UWP, Xamarin, WinUI)
 * Application Performance and Responsiveness
 * Unmanaged Code
 * Reusable Types and Assemblies
