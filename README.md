@@ -25,8 +25,6 @@
   * [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 * Handling Exceptions
   * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
-* Lambda
-  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * Files and Directories
   * [How to get information about files, folders, and drives](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-get-information-about-files-folders-and-drives)
 * XML and JSON
@@ -35,10 +33,12 @@
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
-## Data
+## EF and LINQ
 * Entity Framework Code First
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
+* Lambda
+  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * LINQ
   * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
