@@ -36,7 +36,10 @@
 * Entity Framework Code First
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
-* Database
+* LINQ
+  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/#query-expression-overview)
+  * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
+  * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
 * Remote Data
   * OData
     * [Understand OData in 6 steps](https://www.odata.org/getting-started/understand-odata-in-6-steps/)
@@ -51,6 +54,7 @@
 * Unmanaged Code
 * Reusable Types and Assemblies
 * Encryption and Decryption
+  * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
 * Monitoring Applications
 
 ## Tools
