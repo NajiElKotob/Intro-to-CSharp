@@ -62,6 +62,7 @@
 * Encryption and Decryption
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
 * Security
+  * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
 * Monitoring Applications
   * [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
   * [Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/net-logging-basics/) - loggly.com
