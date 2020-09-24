@@ -37,7 +37,7 @@
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 * LINQ
-  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/#query-expression-overview)
+  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
 * Remote Data
@@ -61,6 +61,7 @@
   * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
+  * [Creating a Cryptographic Application (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/standard/security/walkthrough-creating-a-cryptographic-application)
 * Security
   * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
   * [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/)
