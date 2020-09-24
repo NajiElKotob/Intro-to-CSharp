@@ -37,6 +37,7 @@
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
 * LINQ
+  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/#query-expression-overview)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
 * Remote Data
