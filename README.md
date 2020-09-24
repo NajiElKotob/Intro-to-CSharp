@@ -50,12 +50,23 @@
 
 ## Extra knowledge
 * User Interface for a Graphical Application
+  * HTML and CSS (ASP.NET MVC)
+  * Controls (WinForms)
+  * XAML (WPF, UWP, Xamarin, WinUI)
 * Application Performance and Responsiveness
+  * [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
 * Unmanaged Code
+  * [What is "managed code"?](https://docs.microsoft.com/en-us/dotnet/standard/managed-code)
 * Reusable Types and Assemblies
+  * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
+* Security
+  * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
+  * [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/)
 * Monitoring Applications
+  * [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
+  * [Ultimate Guide to Logging](https://www.loggly.com/ultimate-guide/net-logging-basics/) - loggly.com
 
 ## Tools
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
