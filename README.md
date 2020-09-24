@@ -61,7 +61,9 @@
   * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
+* Security
 * Monitoring Applications
+  * [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
 
 ## Tools
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
