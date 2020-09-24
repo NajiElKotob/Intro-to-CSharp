@@ -53,6 +53,7 @@
 * Unmanaged Code
 * Reusable Types and Assemblies
 * Encryption and Decryption
+  * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
 * Monitoring Applications
 
 ## Tools
