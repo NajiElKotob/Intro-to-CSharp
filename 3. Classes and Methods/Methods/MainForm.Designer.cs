@@ -31,11 +31,12 @@
             this.btnVAT11Prct = new System.Windows.Forms.Button();
             this.btnCalcVATTax = new System.Windows.Forms.Button();
             this.btnCalcVATTaxMargin = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnVAT11Prct
             // 
-            this.btnVAT11Prct.Location = new System.Drawing.Point(26, 13);
+            this.btnVAT11Prct.Location = new System.Drawing.Point(24, 38);
             this.btnVAT11Prct.Name = "btnVAT11Prct";
             this.btnVAT11Prct.Size = new System.Drawing.Size(198, 23);
             this.btnVAT11Prct.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // btnCalcVATTax
             // 
-            this.btnCalcVATTax.Location = new System.Drawing.Point(26, 53);
+            this.btnCalcVATTax.Location = new System.Drawing.Point(24, 78);
             this.btnCalcVATTax.Name = "btnCalcVATTax";
             this.btnCalcVATTax.Size = new System.Drawing.Size(198, 23);
             this.btnCalcVATTax.TabIndex = 1;
@@ -55,7 +56,7 @@
             // 
             // btnCalcVATTaxMargin
             // 
-            this.btnCalcVATTaxMargin.Location = new System.Drawing.Point(26, 92);
+            this.btnCalcVATTaxMargin.Location = new System.Drawing.Point(24, 117);
             this.btnCalcVATTaxMargin.Name = "btnCalcVATTaxMargin";
             this.btnCalcVATTaxMargin.Size = new System.Drawing.Size(198, 23);
             this.btnCalcVATTaxMargin.TabIndex = 2;
@@ -63,11 +64,21 @@
             this.btnCalcVATTaxMargin.UseVisualStyleBackColor = true;
             this.btnCalcVATTaxMargin.Click += new System.EventHandler(this.btnCalcVATTaxMargin_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(85, 17);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Overloading";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(260, 464);
+            this.ClientSize = new System.Drawing.Size(251, 464);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalcVATTaxMargin);
             this.Controls.Add(this.btnCalcVATTax);
             this.Controls.Add(this.btnVAT11Prct);
@@ -75,6 +86,7 @@
             this.Text = "Methods";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,6 +95,7 @@
         private System.Windows.Forms.Button btnVAT11Prct;
         private System.Windows.Forms.Button btnCalcVATTax;
         private System.Windows.Forms.Button btnCalcVATTaxMargin;
+        private System.Windows.Forms.Label label1;
     }
 }
 
