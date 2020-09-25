@@ -11,19 +11,20 @@
 * Data Types and Variables
   * [Types and variables](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/#types-and-variables)
 * Arrays and Collections
-  * [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+  * Collections
+    * [Collections](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections)
+    * [Collections with examples](http://zetcode.com/lang/csharp/collections/) - zetcode.com
   * [Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/)
   * [Array Class](https://docs.microsoft.com/en-us/dotnet/api/system.array)
-* Methods and Classes
-  * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+* Methods, Classes and Structures
   * Methods
     * [Methods](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
     * [Named and Optional Arguments](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments)
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
+  * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
+  * [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 * Handling Exceptions
   * [Exceptions and Exception Handling](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions)
-* Lambda
-  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * Files and Directories
   * [How to get information about files, folders, and drives](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/file-system/how-to-get-information-about-files-folders-and-drives)
 * XML and JSON
@@ -32,12 +33,14 @@
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
-## Data
+## EF and LINQ
 * Entity Framework Code First
   * [Entity Framework Core](https://github.com/NajiElKotob/Awesome-EntityFrameworkCore) - Awesome Entity Framework Core
   * [Entity Framework 6](https://docs.microsoft.com/en-us/ef/ef6/)
+* Lambda
+  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * LINQ
-  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/#query-expression-overview)
+  * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
 * Remote Data
@@ -60,7 +63,9 @@
 * Reusable Types and Assemblies
   * [Assemblies in .NET](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 * Encryption and Decryption
+  * [Cryptography 101 - The Basics](https://www.youtube.com/watch?v=fNC3jCCGJ0o) - YouTube ~9min
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
+  * [Creating a Cryptographic Application (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/standard/security/walkthrough-creating-a-cryptographic-application)
 * Security
   * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
   * [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/)
