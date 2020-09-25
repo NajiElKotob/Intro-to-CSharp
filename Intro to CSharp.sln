@@ -78,6 +78,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "3. Classes and M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language INtegrated Query", "9. LINQ\Language INtegrated Query\Language INtegrated Query.csproj", "{BE657984-8CBC-41DB-9926-19EC4A22852E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda", "9. LINQ\Lambda\Lambda\Lambda.csproj", "{03AF2229-519F-44E0-A4C6-72ABE63B43FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -176,6 +178,10 @@ Global
 		{BE657984-8CBC-41DB-9926-19EC4A22852E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE657984-8CBC-41DB-9926-19EC4A22852E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE657984-8CBC-41DB-9926-19EC4A22852E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03AF2229-519F-44E0-A4C6-72ABE63B43FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AF2229-519F-44E0-A4C6-72ABE63B43FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AF2229-519F-44E0-A4C6-72ABE63B43FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AF2229-519F-44E0-A4C6-72ABE63B43FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +210,7 @@ Global
 		{4B5C4177-6561-4D9C-9336-5C83C5AA69ED} = {A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}
 		{9E448AD1-7031-4B92-8319-1A4DAE63D519} = {A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}
 		{BE657984-8CBC-41DB-9926-19EC4A22852E} = {5EFB70B1-9D0B-44C4-9114-4B4257E74F4F}
+		{03AF2229-519F-44E0-A4C6-72ABE63B43FF} = {5EFB70B1-9D0B-44C4-9114-4B4257E74F4F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}
