@@ -61,6 +61,7 @@
     * [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
     * [Dynamic client-side scripting (JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
   * Controls (WinForms)
+    * [Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/controls/?view=netframeworkdesktop-4.8)
   * XAML (WPF, UWP, Xamarin, WinUI)
 * Application Performance and Responsiveness
   * [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
