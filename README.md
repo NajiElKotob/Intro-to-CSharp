@@ -57,6 +57,9 @@
 ## Extra knowledge
 * User Interface for a Graphical Application
   * HTML and CSS (ASP.NET MVC)
+    * [Structuring the web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+    * [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    * [Dynamic client-side scripting (JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
   * Controls (WinForms)
   * XAML (WPF, UWP, Xamarin, WinUI)
 * Application Performance and Responsiveness
