@@ -84,6 +84,9 @@
 ## Tools
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
 
+## Code Samples
+* [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
+
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
 
