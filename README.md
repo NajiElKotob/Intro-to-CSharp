@@ -86,3 +86,8 @@
 
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
+
+## Exam
+* [Exam 70-483: Programming in C#](https://docs.microsoft.com/en-us/learn/certifications/exams/70-483)
+* [Exam Ref 70-483 Programming in C#, 2nd Edition](https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-sharp-9781509306985)
+
