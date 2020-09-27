@@ -90,4 +90,5 @@
 ## Exam
 * [Exam 70-483: Programming in C#](https://docs.microsoft.com/en-us/learn/certifications/exams/70-483)
 * [Exam Ref 70-483 Programming in C#, 2nd Edition](https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-sharp-9781509306985)
+* [Prep Session with Christopher Harrison](https://www.youtube.com/watch?v=hf7A3ghU5XE) - YouTube ~40min
 
