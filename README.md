@@ -74,6 +74,7 @@
   * [Cryptography 101 - The Basics](https://www.youtube.com/watch?v=fNC3jCCGJ0o) - YouTube ~9min
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
   * [Creating a Cryptographic Application (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/standard/security/walkthrough-creating-a-cryptographic-application)
+  * [Seven tips for working with X.509 certificates in .NET](https://paulstovell.com/x509certificate2/)
 * Security
   * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
   * [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/)
