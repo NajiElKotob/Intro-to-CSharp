@@ -86,9 +86,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays and Collections", "5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Remote Access", "Remote Access", "{39EF437E-74F8-46EC-A6CE-B0DB5B63ABD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast Web API", "Remote Access\REST APIs\WeatherForecast Web API\WeatherForecast Web API.csproj", "{E7294B24-5A05-45FC-A56E-9885192EE3C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecast Web API", "Remote Access\REST APIs\WeatherForecast Web API\WeatherForecast Web API.csproj", "{E7294B24-5A05-45FC-A56E-9885192EE3C6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast Web API Client", "Remote Access\REST APIs\WeatherForecast Web API Client\WeatherForecast Web API Client.csproj", "{C22840E2-8C7D-45EB-863C-10880B10C9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temp", "Temp", "{F914C1F0-BBAF-42EE-A7CC-D0725DD78747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperature Conversion", "3. Classes and Methods\Assembly\Temperature Conversion\Temperature Conversion.csproj", "{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConversionLib", "3. Classes and Methods\Assembly\TemperatureConversionLib\TemperatureConversionLib.csproj", "{C8DD233D-C707-43BC-AAD5-F23CF676545F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -208,6 +214,14 @@ Global
 		{C22840E2-8C7D-45EB-863C-10880B10C9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22840E2-8C7D-45EB-863C-10880B10C9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22840E2-8C7D-45EB-863C-10880B10C9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DD233D-C707-43BC-AAD5-F23CF676545F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DD233D-C707-43BC-AAD5-F23CF676545F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DD233D-C707-43BC-AAD5-F23CF676545F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DD233D-C707-43BC-AAD5-F23CF676545F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +255,8 @@ Global
 		{9D83BE9D-5920-4E68-876F-65B6A34E1E3D} = {05596827-EC6D-4225-8EA7-A7FADDA0CCF9}
 		{E7294B24-5A05-45FC-A56E-9885192EE3C6} = {39EF437E-74F8-46EC-A6CE-B0DB5B63ABD5}
 		{C22840E2-8C7D-45EB-863C-10880B10C9BD} = {39EF437E-74F8-46EC-A6CE-B0DB5B63ABD5}
+		{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455} = {A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}
+		{C8DD233D-C707-43BC-AAD5-F23CF676545F} = {A6FCD2C8-ABE8-400F-A29C-BE61C75A1F79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}

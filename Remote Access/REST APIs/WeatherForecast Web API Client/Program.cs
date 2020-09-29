@@ -28,9 +28,6 @@ namespace WeatherForecast_Web_API_Client
                 client.DefaultRequestHeaders.Accept.Add(
                     new MediaTypeWithQualityHeaderValue("application/json"));
 
-
-
-
                 //HTTP GET
 
                 //IEnumerable<WeatherForecast> weatherForecast = null;
@@ -43,10 +40,6 @@ namespace WeatherForecast_Web_API_Client
                         Console.WriteLine($"{item.ToString()}");
                     }
                 }
-
-
-
-
 
             }
             Console.ReadLine();
