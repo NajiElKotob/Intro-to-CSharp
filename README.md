@@ -47,6 +47,8 @@
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
 * Remote Data
+  * REST APIs
+    * [Create a web API with ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api)
   * OData
     * [Understand OData in 6 steps](https://www.odata.org/getting-started/understand-odata-in-6-steps/)
     * [Basic CRUD operations](https://docs.microsoft.com/en-us/odata/client/getting-started)
