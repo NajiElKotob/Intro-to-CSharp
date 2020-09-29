@@ -57,8 +57,13 @@
 ## Extra knowledge
 * User Interface for a Graphical Application
   * HTML and CSS (ASP.NET MVC)
+    * [Structuring the web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+    * [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    * [Dynamic client-side scripting (JavaScript)](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
   * Controls (WinForms)
+    * [Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/desktop/winforms/controls/?view=netframeworkdesktop-4.8)
   * XAML (WPF, UWP, Xamarin, WinUI)
+    * [Overview of XAML](https://docs.microsoft.com/en-us/visualstudio/xaml-tools/xaml-overview)
 * Application Performance and Responsiveness
   * [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
 * Unmanaged Code
@@ -69,6 +74,7 @@
   * [Cryptography 101 - The Basics](https://www.youtube.com/watch?v=fNC3jCCGJ0o) - YouTube ~9min
   * [Security Util Library (Open Source)](https://github.com/NajiElKotob/SecurityUtil)
   * [Creating a Cryptographic Application (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/standard/security/walkthrough-creating-a-cryptographic-application)
+  * [Seven tips for working with X.509 certificates in .NET](https://paulstovell.com/x509certificate2/) - paulstovell.com
 * Security
   * [Security in .NET](https://docs.microsoft.com/en-us/dotnet/standard/security/)
   * [Overview of ASP.NET Core Security](https://docs.microsoft.com/en-us/aspnet/core/security/)
@@ -79,5 +85,15 @@
 ## Tools
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
 
+## Code Samples
+* [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
+
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
+* [.NET Videos](https://dotnet.microsoft.com/learn/videos) - Free videos for learning about .NET developer platform and how to use it.
+
+## Exam
+* [Exam 70-483: Programming in C#](https://docs.microsoft.com/en-us/learn/certifications/exams/70-483)
+* [Exam Ref 70-483 Programming in C#, 2nd Edition](https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-sharp-9781509306985)
+* [Prep Session with Christopher Harrison](https://www.youtube.com/watch?v=hf7A3ghU5XE) - YouTube ~40min
+
