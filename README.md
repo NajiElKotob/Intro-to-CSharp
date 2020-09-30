@@ -22,7 +22,7 @@
     * [Named and Optional Arguments](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments)
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
-  * [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
+  * [Struct (Structure types)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 * Delegates
   * [What are Delegates? (C# Basics, Lambda, Action, Func)](https://www.youtube.com/watch?v=3ZfwqWl-YI0) - Code Monkey (YouTube)
   * [Delegates (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
@@ -55,6 +55,7 @@
   * gRPC
     * [Building a gRPC service with C#](https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp/index.html)
     * [gRPC .NET Examples](https://github.com/meteatamel/grpc-samples-dotnet)
+    * [gRPC for WCF developers e-book](https://dotnet.microsoft.com/learn/aspnet/architecture#ebook-grpc-for-wcf-devs-swimlane)
 
 ## Extra knowledge
 * User Interface for a Graphical Application
