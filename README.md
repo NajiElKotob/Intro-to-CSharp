@@ -22,7 +22,7 @@
     * [Named and Optional Arguments](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/named-and-optional-arguments)
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
-  * [Structure types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
+  * [Struct (Structure types)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
 * Delegates
   * [What are Delegates? (C# Basics, Lambda, Action, Func)](https://www.youtube.com/watch?v=3ZfwqWl-YI0) - Code Monkey (YouTube)
   * [Delegates (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
