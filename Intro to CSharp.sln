@@ -90,8 +90,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecast Web API", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForecast Web API Client", "Remote Access\REST APIs\WeatherForecast Web API Client\WeatherForecast Web API Client.csproj", "{C22840E2-8C7D-45EB-863C-10880B10C9BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temp", "Temp", "{F914C1F0-BBAF-42EE-A7CC-D0725DD78747}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperature Conversion", "3. Classes and Methods\Assembly\Temperature Conversion\Temperature Conversion.csproj", "{BFDBD03E-2EB3-4B56-87CD-1C5AF58C4455}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConversionLib", "3. Classes and Methods\Assembly\TemperatureConversionLib\TemperatureConversionLib.csproj", "{C8DD233D-C707-43BC-AAD5-F23CF676545F}"
