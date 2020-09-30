@@ -55,6 +55,7 @@
   * gRPC
     * [Building a gRPC service with C#](https://codelabs.developers.google.com/codelabs/cloud-grpc-csharp/index.html)
     * [gRPC .NET Examples](https://github.com/meteatamel/grpc-samples-dotnet)
+    * [gRPC for WCF developers e-book](https://dotnet.microsoft.com/learn/aspnet/architecture#ebook-grpc-for-wcf-devs-swimlane)
 
 ## Extra knowledge
 * User Interface for a Graphical Application
