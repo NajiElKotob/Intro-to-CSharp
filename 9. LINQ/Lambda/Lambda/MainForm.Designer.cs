@@ -1,6 +1,6 @@
 ﻿namespace Anonymous_Lambda_DEMO
 {
-    partial class frmMain
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.

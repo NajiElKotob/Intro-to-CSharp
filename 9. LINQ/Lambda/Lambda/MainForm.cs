@@ -10,9 +10,9 @@ https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lamb
 
 namespace Anonymous_Lambda_DEMO
 {
-    public partial class frmMain : Form
+    public partial class MainForm : Form
     {
-       public frmMain()
+       public MainForm()
         {
             InitializeComponent();
         }
@@ -52,6 +52,7 @@ namespace Anonymous_Lambda_DEMO
 
 
         delegate void AnonymousMethod(int x);
+
         AnonymousMethod am = delegate (int x)
        {
            MessageBox.Show($"Anonymous Method: {x}");
@@ -72,10 +73,17 @@ namespace Anonymous_Lambda_DEMO
 
             // Results from the old style delegate call.
             pt("The delegate using the named method is called.");
+
+
+            pt = new PrintTextDel(PrintText2);
+
+            // Results from the old style delegate call.
+            pt("The delegate using the named method is called.");
         }
 
         // Declare a delegate. 
         delegate void PrintTextDel(string s);
+
         // Instantiate the delegate type using an anonymous method.
         PrintTextDel pt = delegate (string t)
         {
@@ -86,6 +94,12 @@ namespace Anonymous_Lambda_DEMO
         void PrintText(string t)
         {
             MessageBox.Show("Named method: " + t);
+        }
+
+
+        void PrintText2(string t)
+        {
+            MessageBox.Show("Named method2: " + t);
         }
 
         #endregion
@@ -133,6 +147,10 @@ namespace Anonymous_Lambda_DEMO
 
             MessageBox.Show(myEmployee?.Name);
 
+            //if (myEmployee != null)
+            //{
+            //    MessageBox.Show(myEmployee.Name);
+            //}
         }
 
 
@@ -181,9 +199,41 @@ namespace Anonymous_Lambda_DEMO
         //Using Lambda 
         private void button4_Click(object sender, EventArgs e)
         {
-            int searchForId = 5;
+            int searchForId = 2;
            // Employee myEmployee = employees.Find(emp => emp.ID == searchForId);
             Employee myEmployee = employees.Where(emp => emp.ID == searchForId).SingleOrDefault();
+            //var emp = employees.Where((em) => emp.ID == searchForId).SingleOrDefault();
+
+            /*
+            bool SearchByID(Employee emp)
+            {
+                if (emp.ID == empID)
+                    return true;
+                else
+                    return false;
+            }
+
+            1 line:
+            (Employee emp) => if (emp.ID == empID)
+                    return true;
+                else
+                    return false;
+
+            cont'd
+            (Employee emp) => emp.ID == empID;
+                   
+              cont'd
+              (emp) => emp.ID == empID;
+
+
+              cont'd
+              emp => emp.ID == empID;
+
+            */
+
+
+
+
 
             MessageBox.Show(myEmployee?.Name);
             

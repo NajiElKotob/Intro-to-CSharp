@@ -1,11 +1,10 @@
-﻿using Anonymous_Lambda_DEMO;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Lambda
+namespace Interfaces
 {
     static class Program
     {
