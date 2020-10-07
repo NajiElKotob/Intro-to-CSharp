@@ -91,6 +91,9 @@
 ## Code Samples
 * [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
 
+## Learn
+* [Learn C#](https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07)
+
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
 * [.NET Videos](https://dotnet.microsoft.com/learn/videos) - Free videos for learning about .NET developer platform and how to use it.
