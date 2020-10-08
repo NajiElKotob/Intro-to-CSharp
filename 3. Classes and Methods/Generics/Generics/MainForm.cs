@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Generics_DEMO
+namespace Generics
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -30,6 +30,8 @@ namespace Generics_DEMO
             GenericTest<string> test2 = new GenericTest<string>("Num#10");
             // Call the GetValue method.
             MessageBox.Show(test2.GetValue());
+
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -49,7 +51,7 @@ namespace Generics_DEMO
         private void button3_Click(object sender, EventArgs e)
         {
 
-           // GenericConstraints<int> gc1 = new GenericConstraints<int>(); //Error: The type 'int' must be a reference type in order to use it as parameter 'T' 
+            //GenericConstraints<int> gc1 = new GenericConstraints<int>(); //Error: The type 'int' must be a reference type in order to use it as parameter 'T' 
             GenericConstraints<string> gc2 = new GenericConstraints<string>(); 
             GenericConstraints<Person> gc3 = new GenericConstraints<Person>();
 

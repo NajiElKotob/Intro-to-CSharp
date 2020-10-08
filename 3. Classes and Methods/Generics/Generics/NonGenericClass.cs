@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Generics_DEMO
+namespace Generics
 {
     class NonGenericClass
     {
@@ -20,6 +20,8 @@ namespace Generics_DEMO
             return this._value;
         }
     }
+
+
 
 
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Generics_DEMO
+namespace Generics
 {
 
 //Constraint - https://msdn.microsoft.com/en-us/library/d5x73970.aspx
@@ -38,6 +38,12 @@ namespace Generics_DEMO
         {
 
         }
+
+        //public Person()
+        //{
+
+        //}
+
     }
 
     class GenericConstraintsPerson<T> where T : Person, new()

@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Generics_DEMO
+namespace Generics
 {
 
     class GenericTest<T>
     {
         T _value;
+        
 
         public GenericTest(T t)
         {
