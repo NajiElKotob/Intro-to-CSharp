@@ -13,6 +13,7 @@ namespace Interfaces
     //https://msdn.microsoft.com/en-us/library/system.idisposable(v=vs.110).aspx
 
 
+
     class BaseClassIDisposable : IDisposable
     {
         // Flag: Has Dispose already been called? 

@@ -8,7 +8,8 @@ namespace Interfaces
 {
     interface Interface1
     {
-        int MyProperty { get; set; }
+       int MyProperty { get; set; }
+
         void MySub(int value);
 
         bool MyFunc(int value );

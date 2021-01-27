@@ -20,6 +20,7 @@ namespace Interfaces
 
         private void btnIDisposable_Click(object sender, EventArgs e)
         {
+
             using (BaseClassIDisposable disposable = new BaseClassIDisposable()){
 
             }
