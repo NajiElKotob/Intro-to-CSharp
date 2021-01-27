@@ -33,6 +33,7 @@
 * XML and JSON
   * [XmlDocument Class](https://docs.microsoft.com/en-us/dotnet/api/system.xml.xmldocument)
   * [Json.NET](https://www.newtonsoft.com/json) - Popular high-performance JSON framework for .NET
+  * [JSON 2 C#](https://json2csharp.com/) - Convert Json to C# Classes Online
 * Object-oriented programming (OOP)
   * [Object-Oriented programming (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/object-oriented-programming)
 
