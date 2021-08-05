@@ -97,6 +97,7 @@
 ## Learn
 * [Learn C#](https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07)
    - [Take your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/) 
+   - [Add logic to your applications with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-logic/)
 
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
