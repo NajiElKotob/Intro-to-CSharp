@@ -100,6 +100,9 @@
    - [Add logic to your applications with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-logic/)
    - [Work with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
 
+## e-books
+* [Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) - syncfusion.com | 170+ free ebooks on the latest technologies and industry topics.
+
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
 * [.NET Videos](https://dotnet.microsoft.com/learn/videos) - Free videos for learning about .NET developer platform and how to use it.
