@@ -95,10 +95,12 @@
 * [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
 
 ## Learn
-* [Learn C#](https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07)
+* [Learn C#](https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07) - Microsoft Learning
    - [Take your first steps with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/) 
    - [Add logic to your applications with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-logic/)
    - [Work with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
+* [Edx C# Courses](https://www.edx.org/learn/c-sharp) 
+
 
 ## e-books
 * [Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) - syncfusion.com | 170+ free ebooks on the latest technologies and industry topics.
