@@ -107,6 +107,7 @@
 
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
+  * [C#](https://channel9.msdn.com/Tags/csharp) - channel9.msdn.com
   * [C# Fundamentals for Absolute Beginners](https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners) - Bob Tabor :star:
 * [.NET Videos](https://dotnet.microsoft.com/learn/videos) - Free videos for learning about .NET developer platform and how to use it.
 
