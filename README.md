@@ -3,6 +3,7 @@
 ## Essential Knowledge
 * .NET Languages and .NET Framework
   * [A tour of the C# language](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+  * [The history of C#](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
 * Visual C# Syntax
   * [C# programming guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
   * [C# reference](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
