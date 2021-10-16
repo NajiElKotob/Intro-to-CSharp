@@ -107,6 +107,8 @@
 
 ## e-books
 * [Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) - syncfusion.com | 170+ free ebooks on the latest technologies and industry topics.
+* [Herong's Tutorial Examples](http://www.herongyang.com/C-Sharp/index.html) - herongyang.com
+
 
 ## Videos
 * [Channel 9](https://channel9.msdn.com)
