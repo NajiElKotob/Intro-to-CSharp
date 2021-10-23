@@ -90,8 +90,16 @@
   * [Numpy.NET](https://github.com/SciSharp/Numpy.NET)
   
 ## Tools
+### .NET Framework
 * [.NET Framework Tools](https://docs.microsoft.com/en-us/dotnet/framework/tools/)
 
+### Visual Studio
+
+#### Keyboard shortcuts
+* [Keyboard shortcuts in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio)
+* Comments
+  - Inline // CTRL+E+C (Comment out), CTRL+E+U (Uncomment)
+  - Multi-line /* */ CTRL+SHIFT+/
 ## Code Samples
 * [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
 
