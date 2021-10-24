@@ -50,6 +50,7 @@ namespace Files_and_Directories
 
 
             var i = 0;
+            lstFiles.Items.Clear();
 
             foreach (string fileName in fileEntries)
             {
