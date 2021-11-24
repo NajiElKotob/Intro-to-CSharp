@@ -24,6 +24,8 @@
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
   * [Struct (Structure types)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
+* DTO
+  * [What is a DTO? Data Transfer Object](https://www.youtube.com/watch?v=F9M9bUq-0Z0) - rogramming with Professor Sluiter
 * Delegates
   * [What are Delegates? (C# Basics, Lambda, Action, Func)](https://www.youtube.com/watch?v=3ZfwqWl-YI0) - Code Monkey (YouTube)
   * [Delegates (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
