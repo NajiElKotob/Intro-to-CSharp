@@ -116,6 +116,7 @@
    - [Add logic to your applications with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-logic/)
    - [Work with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
 * [Edx C# Courses](https://www.edx.org/learn/c-sharp) 
+* [.NET Interactive Notebooks for C# (GitHub)](https://github.com/dotnet/csharp-notebooks?WT.mc_id=visual-45853-ninarasi)
 * Learn C# with a Channel 9 video series
   - [C# 101](https://channel9.msdn.com/Series/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha)
   - [C# Advanced](https://channel9.msdn.com/Series/C-Advanced/?&WT.mc_id=EducationalAdvancedCsharp-c9-niner) 
