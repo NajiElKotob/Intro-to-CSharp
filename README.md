@@ -48,6 +48,7 @@
 * Lambda
   * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * LINQ
+  * [LINQ improvements in .NET 6](https://blog.okyrylchuk.dev/linq-improvements-in-net-6) - okyrylchuk.dev
   * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
