@@ -24,6 +24,9 @@
     * [out parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/out-parameter-modifier)
   * [Classes](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes)
   * [Struct (Structure types)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/struct)
+* DTO
+  * [What is a DTO? Data Transfer Object](https://www.youtube.com/watch?v=F9M9bUq-0Z0) - Programming with Professor Sluiter
+  * [C# Web App Activity 5b Code a DTO Data Transfer Object](https://www.youtube.com/watch?v=B8n35ZReRb0)
 * Delegates
   * [What are Delegates? (C# Basics, Lambda, Action, Func)](https://www.youtube.com/watch?v=3ZfwqWl-YI0) - Code Monkey (YouTube)
   * [Delegates (C# Programming Guide)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
@@ -45,6 +48,7 @@
 * Lambda
   * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * LINQ
+  * [LINQ improvements in .NET 6](https://blog.okyrylchuk.dev/linq-improvements-in-net-6) - okyrylchuk.dev
   * [Language Integrated Query (LINQ)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/)
   * [Query Syntax and Method Syntax in LINQ](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
   * [Writing Queries in C# (Walkthrough)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/walkthrough-writing-queries-linq)
@@ -100,8 +104,13 @@
 * Comments
   - Inline // CTRL+E+C (Comment out), CTRL+E+U (Uncomment)
   - Multi-line /* */ CTRL+SHIFT+/
+
+### Online Compilers
+* [SharpLab](https://sharplab.io/) - sharplab.io
+
 ## Code Samples
 * [Browse code samples](https://docs.microsoft.com/en-us/samples/browse/)
+
 
 ## Learning
 * [Learn C#](https://docs.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07) - Microsoft Learning
@@ -109,6 +118,7 @@
    - [Add logic to your applications with C#](https://docs.microsoft.com/en-us/learn/paths/csharp-logic/)
    - [Work with data in C#](https://docs.microsoft.com/en-us/learn/paths/csharp-data/)
 * [Edx C# Courses](https://www.edx.org/learn/c-sharp) 
+* [.NET Interactive Notebooks for C# (GitHub)](https://github.com/dotnet/csharp-notebooks?WT.mc_id=visual-45853-ninarasi)
 * Learn C# with a Channel 9 video series
   - [C# 101](https://channel9.msdn.com/Series/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha)
   - [C# Advanced](https://channel9.msdn.com/Series/C-Advanced/?&WT.mc_id=EducationalAdvancedCsharp-c9-niner) 
