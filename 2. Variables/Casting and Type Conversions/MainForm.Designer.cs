@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnImplicitConversation = new System.Windows.Forms.Button();
             this.lnkHelp1 = new System.Windows.Forms.LinkLabel();
             this.chkConvertWithSymbols = new System.Windows.Forms.CheckBox();
             this.btnParseWithNumberStyle = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.btnRemoveSpace = new System.Windows.Forms.Button();
             this.btnConvertClass = new System.Windows.Forms.Button();
             this.txtInput = new System.Windows.Forms.TextBox();
-            this.btnImplicitConversation = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,20 +56,30 @@
             this.groupBox1.Controls.Add(this.txtInput);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(246, 509);
+            this.groupBox1.Size = new System.Drawing.Size(391, 473);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Convert a String to a Number ";
+            // 
+            // btnImplicitConversation
+            // 
+            this.btnImplicitConversation.Location = new System.Drawing.Point(7, 74);
+            this.btnImplicitConversation.Name = "btnImplicitConversation";
+            this.btnImplicitConversation.Size = new System.Drawing.Size(197, 42);
+            this.btnImplicitConversation.TabIndex = 2;
+            this.btnImplicitConversation.Text = "Implicity Conversion";
+            this.btnImplicitConversation.UseVisualStyleBackColor = true;
+            this.btnImplicitConversation.Click += new System.EventHandler(this.btnImplicitConversation_Click);
             // 
             // lnkHelp1
             // 
             this.lnkHelp1.AutoSize = true;
             this.lnkHelp1.Location = new System.Drawing.Point(16, 433);
             this.lnkHelp1.Name = "lnkHelp1";
-            this.lnkHelp1.Size = new System.Drawing.Size(194, 17);
+            this.lnkHelp1.Size = new System.Drawing.Size(260, 16);
             this.lnkHelp1.TabIndex = 5;
             this.lnkHelp1.TabStop = true;
-            this.lnkHelp1.Text = "Casting and type conversions";
+            this.lnkHelp1.Text = "Learn more | Casting and type conversions";
             this.lnkHelp1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkHelp1_LinkClicked);
             // 
             // chkConvertWithSymbols
@@ -98,7 +108,7 @@
             this.lblOutput.AutoSize = true;
             this.lblOutput.Location = new System.Drawing.Point(85, 37);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(16, 17);
+            this.lblOutput.Size = new System.Drawing.Size(14, 16);
             this.lblOutput.TabIndex = 2;
             this.lblOutput.Text = "0";
             // 
@@ -150,21 +160,11 @@
             this.txtInput.TabIndex = 0;
             this.txtInput.Text = "50";
             // 
-            // btnImplicitConversation
-            // 
-            this.btnImplicitConversation.Location = new System.Drawing.Point(7, 74);
-            this.btnImplicitConversation.Name = "btnImplicitConversation";
-            this.btnImplicitConversation.Size = new System.Drawing.Size(197, 42);
-            this.btnImplicitConversation.TabIndex = 2;
-            this.btnImplicitConversation.Text = "Implicity Conversion";
-            this.btnImplicitConversation.UseVisualStyleBackColor = true;
-            this.btnImplicitConversation.Click += new System.EventHandler(this.btnImplicitConversation_Click);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 533);
+            this.ClientSize = new System.Drawing.Size(415, 497);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmMain";
             this.Text = "Casting and Type Conversions";
