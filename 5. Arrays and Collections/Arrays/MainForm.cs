@@ -56,7 +56,7 @@ namespace Arrays
                 array[i] = r.Next(min, max);
             }
             */
-
+   
             for (int i = 0; i < array.Length; i++) // how to make "6" dynamic.
             {
                 array[i] = r.Next(min, max);

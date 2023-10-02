@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(428, 445);
             this.Name = "MainForm";
             this.Text = "Delegates";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
         }

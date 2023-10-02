@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30223.230
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hello World", "1. Hello World", "{BF22DA3B-540B-4499-8DC1-1383A219F060}"
 EndProject
@@ -106,7 +106,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instance Counter", "7. Obje
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{2909FD14-CD49-483C-8F5D-C86090D88583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumpyNET", "Python\NumpyNET\NumpyNET.csproj", "{86C0455A-7E74-45C7-A710-C57DAB3D5E21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumpyNET", "Python\NumpyNET\NumpyNET.csproj", "{86C0455A-7E74-45C7-A710-C57DAB3D5E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library Demos", "Library Demos", "{227698FC-B0F1-4F03-BF41-9B59A5334610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QRGenDemo", "Library Demos\QRGenDemo\QRGenDemo.csproj", "{025FBB04-AC50-4BA9-ABA7-51534B66B09C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -254,6 +258,10 @@ Global
 		{86C0455A-7E74-45C7-A710-C57DAB3D5E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C0455A-7E74-45C7-A710-C57DAB3D5E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C0455A-7E74-45C7-A710-C57DAB3D5E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{025FBB04-AC50-4BA9-ABA7-51534B66B09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{025FBB04-AC50-4BA9-ABA7-51534B66B09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{025FBB04-AC50-4BA9-ABA7-51534B66B09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{025FBB04-AC50-4BA9-ABA7-51534B66B09C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,6 +302,7 @@ Global
 		{7A901813-3BDF-498D-9B05-85921DA79393} = {4EAA242B-6001-47AF-B898-D92CFD5C0A5A}
 		{24A0B79C-9757-40F4-A363-D9FB97A16870} = {871724D7-AE35-4CA9-A8D1-52FE1E8E2B81}
 		{86C0455A-7E74-45C7-A710-C57DAB3D5E21} = {2909FD14-CD49-483C-8F5D-C86090D88583}
+		{025FBB04-AC50-4BA9-ABA7-51534B66B09C} = {227698FC-B0F1-4F03-BF41-9B59A5334610}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1961C974-2D3B-4468-84EA-EAD1AD915E22}

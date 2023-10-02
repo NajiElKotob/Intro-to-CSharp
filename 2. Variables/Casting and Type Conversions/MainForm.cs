@@ -45,7 +45,7 @@ namespace Casting_and_Type_Conversions
         private void btnParse_Click(object sender, EventArgs e)
         {
             // If the string is not in a valid format, Parse throws an exception 
-            sbyte num = sbyte.Parse(txtInput.Text);
+            sbyte num = sbyte.Parse(txtInput.Text);           
             num += 10; //add 10
             lblOutput.Text = num.ToString();
         }
