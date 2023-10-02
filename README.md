@@ -135,6 +135,7 @@
 * [.NET Videos](https://dotnet.microsoft.com/learn/videos) - Free videos for learning about .NET developer platform and how to use it.
 
 ## Exam
+* [Foundational C# with Microsoft](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/) - freecodecamp.org
 * [Exam 70-483: Programming in C#](https://docs.microsoft.com/en-us/learn/certifications/exams/70-483)
 * [Exam Ref 70-483 Programming in C#, 2nd Edition](https://www.microsoftpressstore.com/store/exam-ref-70-483-programming-in-c-sharp-9781509306985)
 * [Prep Session with Christopher Harrison](https://www.youtube.com/watch?v=hf7A3ghU5XE) - YouTube ~40min
