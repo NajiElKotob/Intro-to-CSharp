@@ -23,7 +23,10 @@ Console.WriteLine(result2);
 static async Task<string> GetStringAfterDelay(string taskName, int delay)
 {
     Console.WriteLine($"{taskName} started.");
-    await Task.Delay(delay);
+
+    //Task.Delay(delay); // This won't cause any delay in the next line's execution.
+    await Task.Delay(delay); // This will cause a 2-second pause before executing the next line.
+
     Console.WriteLine($"{taskName} completed.");
     return $"{taskName} finished after {delay}ms";
 }
