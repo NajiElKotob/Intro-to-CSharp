@@ -122,7 +122,8 @@
 * Learn C# with a Channel 9 video series
   - [C# 101](https://channel9.msdn.com/Series/CSharp-101/?WT.mc_id=Educationalcsharp-c9-scottha)
   - [C# Advanced](https://channel9.msdn.com/Series/C-Advanced/?&WT.mc_id=EducationalAdvancedCsharp-c9-niner) 
-
+* [Using Visual Studio Notebooks for learning C#](https://techcommunity.microsoft.com/t5/educator-developer-blog/using-visual-studio-notebooks-for-learning-c/ba-p/3580015) - techcommunity.microsoft.com
+  
 ## e-books
 * [Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) - syncfusion.com | 170+ free ebooks on the latest technologies and industry topics.
 * [Herong's Tutorial Examples](http://www.herongyang.com/C-Sharp/index.html) - herongyang.com
